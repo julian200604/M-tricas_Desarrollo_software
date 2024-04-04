@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>Menú Desplegable</title>
+	<link rel="stylesheet" href="estilo.css">
+</head>
+<body>
+	<nav>
+		<ul class="menu-horizontal">
+			<li><a href="index.html">Las mètricas y la calidad del software</a></li>
+			<li><a href="html/metricasModeloAnalisis.html">Métricas del modelo de análisis</a></li>
+			<li><a href="html/metricasModeloDiseño.html">Métricas del modelo del diseño</a></li>
+			<li><a href="html/metricasCodigoFuente.html">Métricas de código fuente</a></li>
+			<li><a href="html/metricasPruebas.html">Métricas para pruebas</a></li>
+            <li><a href="html/metricasMantenimiento.html">Métricas de mantenimiento</a></li>
+		</ul>
+	</nav>
+	<main>
+		<div class="contenedor">
+		  <div class="cuadro">
+			<div class="descripcion">
+				<h2>Las Métricas y la Calidad de Software</h2><br><br><br>
+          
+				<h3>El American Heritage Dictionary define la calidad como</h3><br>
+				<p>«Concordar explícitamente al estado funcional y a los requerimientos del funcionamiento, explícitamente a los estándares de documentación de desarrollo, e implícitamente características que son expectativas de todos los desarrolladores profesionales de software» . La calidad de un sistema, aplicación o producto es tan buena como los requisitos que detallan el problema, el diseño que modela la solución, el código que transfiere a un programa ejecutable y las pruebas que ejercita el software para detectar errores. Un buen ingeniero del software emplea mediciones que evalúan la calidad del análisis y los modelos de diseño, así como el código fuente y los casos de prueba que se han establecido al aplicar la ingeniería del software. McCall y Cavano definieron un juego de factores de calidad como los primeros pasos hacia el desarrollo de métricas de la calidad del software.</p><br><br><br>
+	  
+				<h3>Visión General de los Factores que Afectan a la Calidad</h3><br>
+				<p>En segundo lugar, proporciona un medio de evaluar cuantitativamente el progreso en el desarrollo de software teniendo relación con los objetivos de calidad establecidos. Pero los atributos que proporcionan una indicación de la calidad del software siguen siendo los mismos. Si una organización de software adopta un juego de factores de calidad como una «lista de comprobación» para evaluar la calidad del software, es probable que el software construido hoy siga exhibiendo la buena calidad dentro de las primeras décadas del siglo XXI. Incluso, cuando las arquitecturas del cálculo sufrán cambios radicales , el software que exhibe alta calidad en operación, transición y revisión continuará sirviendo a sus usuarios.
+				Aunque hay muchas medidas de la calidad de software, la corrección, facilidad de mantenimiento, integridad y facilidad de uso suministran indicadores útiles para el equipo del proyecto.</p><br><br><br>
+	  
+				<h3>Medida de la calidad</h3><br>
+				<p>La corrección es el grado en el que el software lleva a cabo una función requerida. Facilidad de mantenimiento. El mantenimiento del software cuenta con más esfuerzo que cualquier otra actividad de ingeniería del software. La facilidad de mantenimiento es la habilidad con la que se puede corregir un programa si se encuentra un error, se puede adaptar si su entorno cambia o optimizar si el cliente desea un cambio de requisitos.<br><br>
+				  El costo estará en corregir defectos hallados después de haber distribuido el software a sus usuarios finales. Cuando la proporción de desperdicios en el costo global del proyecto se simboliza como una función del tiempo, es aquí donde el administrador logra determinar si la facilidad de mantenimiento del software producido por una organización de desarrollo está mejorando y asimismo se pueden emprender acciones a partir de las conclusiones obtenidas de esa información. En esta época de intrusos informáticos y de virus, la integridad del software ha llegado a tener mucha importancia. Este atributo mide la habilidad de un sistema para soportar ataques contra su seguridad.<br><br>
+				  El ataque se puede ejecutar en cualquiera de los tres componentes del software, ya sea en los programas, datos o documentos. Facilidad de uso. El calificativo «amigable con el usuario» se ha transformado universalmente en disputas sobre productos de software. Si un programa no es «amigable con el usuario», prácticamente está próximo al fracaso, incluso aunque las funciones que realice sean valiosas.<br><br>
+				  Los cuatro factores anteriores son sólo un ejemplo de todos los que se han propuesto como medidas de la calidad del software. Medidas de fiabilidad y de disponibilidad. Los trabajos iniciales sobre fiabilidad buscaron extrapolar las matemáticas de la teoría de fiabilidad del hardware a la predicción de la fiabilidad del software. La mayoría de los modelos de fiabilidad relativos al hardware van más orientados a los fallos debidos al desajuste, que a los fallos debidos a defectos de diseño, ya que son más probables debido al desgaste físico que los fallos relativos al diseño.<br><br>
+				  Desgraciadamente, para el software lo que ocurre es lo contrario. De hecho, todos los fallos del software, se producen por problemas de diseño o de implementación.</p><br><br><br>
+	  
+				<h3>TMEF = TMDF+TMDR</h3><br>
+				<p>Otros errores, aunque no se hayan descubierto aún, pueden tener una tasa de fallo de 18 ó 24 meses, incluso aunque se eliminen todos los errores de la primera categoría , el impacto sobre la fiabilidad del software será muy escaso.<br>
+				  Donde E= es el número de errores encontrados antes de la entrega del software al usuario final y D= es el número de defectos encontrados después de la entrega. El valor ideal de EED es 1, donde simbolizando que no se han encontrado defectos en el software. Del mismo modo el EED se puede manipular dentro del proyecto, para evaluar la habilidad de un equipo en encontrar errores antes de que pasen a la siguiente actividad, estructura o tarea de ingeniería del software. Por ejemplo, la tarea de análisis de requerimientos produce un modelo de análisis qué se puede inspeccionar para encontrar y corregir errores.<br><br>
+				  Un objetivo de calidad de un equipo de ingeniería de software es alcanzar un EED que se aproxime a 1, esto es, los errores se deberían filtrar antes de pasarse a la actividad siguiente. Esto también puede ser utilizado dentro del proyecto para evaluar la habilidad de un equipo, esto con el objetivo de encontrar deficiencias que harán que se atrase el proyecto.
+				</p><br><br><br>
+	  
+				<h3>Fq = c1 * m1 + c2 * m2 + …+ cn * mn</h3><br>
+				<p>Donde Fq es un factor de calidad del software, cn son coeficientes de regresión y mn son las métricas que afectan al factor de calidad. Lo malo es que las métricas definidas por McCall sólo pueden medirse de manera subjetiva. Las métricas van en lista de comprobación que se emplean para ‘apuntar’ atributos específicos del software. - Capacidad de expansión.<br><br>
+				El grado con que se pueden aumentar el diseño arquitectónico, de datos o procedimental.</p><br><br><br>
+	  
+				<h3>Hewlett-Packard ha desarrollado un conjunto de factores de calidad de software al que se le ha dado el acrónimo de FURPS</h3><br>
+				<p>Se aprecia evaluando el conjunto de características y capacidades del programa, la generalidad de las funciones entregadas y la seguridad del sistema global. Combina la capacidad de ampliar el programa, adaptabilidad y servicios , así como capacidad de hacer pruebas, compatibilidad, capacidad de configuración, la facilidad de instalación de un sistema y la facilidad con que se pueden localizar los problemas.</p><br><br><br>
+			</div>
+		   </div>
+		</div>
+	</main>
+</body>
+</html>

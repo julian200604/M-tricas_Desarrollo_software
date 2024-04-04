@@ -1,0 +1,109 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans&display=swap');
+*{
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+	font-family: 'Open Sans';
+}
+body{
+	background-size: cover;
+	
+}
+
+
+h2 {
+    text-align: center;
+    font-size: 18px;
+    font-weight: bold;
+}
+
+h3{
+	text-align: left;
+    font-size: 18px;
+    font-weight: bold;
+}
+
+nav{
+	max-width: 100%;
+	margin: auto;
+	background-color: #333;
+	font-size: 20px;
+}
+.menu-horizontal{
+	list-style: none;
+	display: flex;
+	justify-content: space-around;
+}
+.menu-horizontal > li > a{
+	display: block;
+	padding: 15px 20px;
+	color: white;
+	text-decoration: none;
+
+}
+.menu-horizontal > li:hover{
+	background-color: rgb(38, 191, 230);
+}
+.menu-vertical{
+	position: absolute;
+	display: none;
+	list-style: none;
+	width: 200px;
+	background-color: rgba(0, 0, 0, .5);
+}
+.menu-horizontal li:hover .menu-vertical{
+	display: block;
+}
+
+
+#html{
+	margin: auto;
+	padding: 20px;
+	max-width: 900px;
+	background: white;
+
+}
+
+/* contenedores de la informaciòn */
+
+.contenedor {
+    display: flex;
+    flex-wrap: wrap; /*se aplica al contenedor para asegurarse de se envuelvan en múltiples líneas si el espacio horizontal disponible no es suficiente */
+    justify-content: center;
+    
+}
+  
+.cuadro {
+    width: 60%;
+    margin: 20px;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1); /*se agrega un efecto sombra en los bordes del cuadro*/
+    overflow: hidden; /*esta propiedad sirve para asegurarse de que cualquier contenido que sobresalga del contenedor no se muestre fuera de los límites del contenedor y se recorte de manera limpia y ordenada*/
+    margin-bottom: 70px;
+}
+  
+.cuadro img {
+    width: 100%;
+    border-radius: 10px 10px 0 0;
+}
+
+  
+.descripcion {
+    padding: 10px;
+}
+  
+.descripcion h2 {
+    margin: 0;
+    font-size: 18px;
+    text-align: center;
+}
+  
+.descripcion p {
+    font-size: 14px;
+    text-align: left;
+    font-weight: normal;
+}
+
+.texto2{
+	text-align: left;
+}
